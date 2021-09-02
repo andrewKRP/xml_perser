@@ -1,8 +1,7 @@
 import xml.etree.ElementTree as ET
 import urllib.request as urlreq
+import urllib.parse as urlpar
 import logging
-#import time
-#from progress.bar import IncrementalBar
 
 
 FORMAT = '%(levelname)s %(message)s'
@@ -13,7 +12,6 @@ i = 0
 path = input("Enter the path to XML file(exp. C:/Users/file.xml): ")
 tree = ET.parse(path)
 root = tree.getroot()
-#bar = IncrementalBar('Countdown', max=len(root.findall('УдостоверяющийЦентр')))
 
 print("Script is working...")
 for elem in root.findall('УдостоверяющийЦентр'):
@@ -43,8 +41,6 @@ for elem in root.findall('УдостоверяющийЦентр'):
                                 except:
                                     logging.exception(f'Error for link {url_link.text}')
                                     continue
-                                #bar.next()
-#bar.finish()
 
 file = open("C:/Users/a.karpihin/Desktop/xml.txt", "w+")
 for elem in root.findall('УдостоверяющийЦентр'):

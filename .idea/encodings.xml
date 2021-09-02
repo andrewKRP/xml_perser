@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/script_log.log" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/script_log_new.log" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/script_log_one.log" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
