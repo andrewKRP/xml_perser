@@ -1,0 +1,1979 @@
+ERROR Error for link http://kulak.mooo.com:8877/data/miac-gost2012.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR Error for link https://doctor73.ru/static/global/static/documents/4e1d036a-1717-4739-9955-fd4ba0d7610f/miac-gost2012.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+INFO Page http://www.med.ulgov.ru/miac/uc/crl/miac-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://medkonf.mz73.ru/images/main/miac-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://inform22.ru/uc/revokedcerts5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.alregn.ru/cert/revokedcerts5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.gosuslugi22.ru/cert/revokedcerts5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cib46.ru/sites/default/files/delcert_1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ceb.tsk.ru/cdp/cons-ceb.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.tsk.ru/cdp/cons-ceb.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://reg.serverc.ru/cdp/atlas-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://reg.atlas-2.ru/cdp/atlas-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.ncarf.ru/download/zaonucpak4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ncarf.ru/download/zaonucpak4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://krtech.ru/wp-content/themes/krtech/crl_krymsvyaz.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://dialog.krtech.ru/wp-content/uploads/2016/11/crl_krymsvyaz.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://wcsamara.ru/ca/wc_list_2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://rcokio.ru/files/upload/oib/rcokio_crl.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fileregionuc.nso.ru/CRL/GOST2012/2019/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://council.gov.ru/services/udost_c/ucsf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.medcluster22.ru/CDP/4127-kidEC57A7A4C868113E9499E976000EEB47540A0B3B/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://uc.kbr.ru/F3D1492DFCB5278CD40E.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.tatais.ru/revocationlist004.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tatais.ru/revocationlist004.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cacrl.srv.lukoil.com/gostca/ca4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.rustest.ru/cdp/rustest_ca_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.asu.ru/uc_asu.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.asu.ru/uc_asu.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://updater.argosgrp.ru/uc2cert4.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+ERROR Error for link http://www.otchetnost.spb.ru/uc2cert4.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 503: Service Unavailable
+INFO Page http://uc.cryptotelecom.ru/cdp/ct1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.kt-69.ru/cdp/ct1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fc.russianpost.ru/DownLoad/For_Site/Uslugi/NormDoc/ca-DDD195D669374970BB1750099EE28202D310FBA9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.yakutia-pki.ru/cdp/sakha2019q.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.yakutia-pki.ru/cdp/sakha2019q.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://genuc.ru/cdp/genuc-2019.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+ERROR Error for link http://ca.genuc.ru/cdp/genuc-2019.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+INFO Page http://cfmc.ru/cdp/1920.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.crosscenter.ru/crl/crosscenter4(2019).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.crosscenter.ru/crl/crosscenter4(2019).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.gosuslugi22.ru/cert/revokedcerts12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.alregn.ru/cert/revokedcerts12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.alregn.ru/cert/revokedcerts11.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.gosuslugi22.ru/cert/revokedcerts11.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sign.id-x.org/certificates/certificate2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.centruc.ru/centruc-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.centruc.ru/centruc-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://egov66.ru/ca/cdp/ca-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://egov66.ru/ca/cdp/ca-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.egov66.ru/ca/cdp/ca-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax23.ru/cdp/ns2003.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax23.su/cdp/ns2003.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.y-center.ru/pnk_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.y-center.ru/pnk_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.y-center.ru/pnk_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://kgnic.ru/ca39ksrc/kgnic-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.kgnic.ru/srvcert/kgnic-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://svyaz.gov39.ru/ca/kgnic-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.specoperator.ru/specop-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.specoperator.ru/specop-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fsos1.yarsec.ru/crl/04CB_rem_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.mchs.gov.ru/9b779e3cd301330a1a26c5bacb00d1c1a357a932.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.nalog.ru/cdp/4e5c543b70fefd74c7597304f2cacad7967078e4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.nalog.ru/cdp/13b64f4d7c2023ed600120a4029d00af3f8ff7e4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.ftcrypto.ru/cdp/ftcrypto2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.ft-crypto.ru/cdp/ftcrypto2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert.vrbp.ru/ooobtp2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert.rutp.ru/ooobtp2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert.rutp.ru/aobp-c-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://zaobp.ru/documents/aobp-c-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://zaobp.ru/documents/aobp-v-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.mts.ru/status/mtsqes2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://rosteck.ru/storage/files/crl/89645c50b7c4cba6d22aaed722a7222ccc86e725.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+ERROR Error for link http://crl.rosteck.ru/89645c50b7c4cba6d22aaed722a7222ccc86e725.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1345, in getresponse
+    response.begin()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+INFO Page http://crl.pkitrans.ru/current/cdbf727b3deb7e62211c11620338cdb1f4afb677.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.icentr.ru/ca/icentr_6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.icentr.ru/ca/icentr_6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.if-spb.ru/files/revokedCerts191.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.if-spb.ru/files/revokedCerts190.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.x5.ru/cdp/q_perekrestok_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ooowebinform.ru/ca/webinform2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://81.20.203.179:8080/webinform2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://b2b-connect.ru/certificats/b2bconnect_9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.brsc.ru/CRL/CA-BRSC-(K1)-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.brsc.ru/CRL/CA-BRSC-(K4)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert1.dreamkas.ru/dk-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert2.dreamkas.ru/dk-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.roseltorg.ru/cdp/A4FC5F8B3ABB1E71B5C8C0EB779B3926A297853C.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.roseltorg.ru/A4FC5F8B3ABB1E71B5C8C0EB779B3926A297853C.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit-kuban.ru/f/crl/ee30d3c65723db569423d3931f8f63fed1762161.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://mydss.moedelo.org/crl/440da95edc71a32519107c4f9c8cbd71e2df9be6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.omskportal.ru/guc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.omskportal.ru/magnoliaPublic/dam/jcr:18247c17-586e-4de0-bba4-36f55f9731af/guc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.sudrf.ru/CDP/4efd611cd8b8abe6ff127012b58d22b91061086c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://reg1.sudrf.ru/CDP/4efd611cd8b8abe6ff127012b58d22b91061086c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.sudrf.ru/CDP/e6f01efcb0e6b616e555c2ec753ebb43ae704b88.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://reg1.sudrf.ru/CDP/e6f01efcb0e6b616e555c2ec753ebb43ae704b88.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chech/uc020_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_lipeck/ca_lipeck_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert.sibtelecom.net/cdp/ooostk2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_alania/ca_alania_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucfoms.ffoms.ru/630a8f435386a2e3f3e340c9adb5640bd9640dce.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://verikey.ru/crl/verikey_crl2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://verikey.ru/crl/verikey_crl1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crypset.ru/crl/co2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crypsetcrl.ru/crl/co2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sampokey.ru/sos/sos2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.dsyst.com/info/cert_7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dsyst.com/index/cert_7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.atlas-kard.ru/CA/Atlas-kard12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://sign.me/media/crls/g2k12_2019r_cacrl.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://sign.me/media/crls/2019cacrl.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://sign.me/media/crls/lissi12_01cacrl.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://sign.me/media/crls/g2k12_2019cacrl.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://q20.cryptopro.ru/cdp/a30b9aa02bd60e50a2b3a806c8d15ce195034db3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cryptopro.ru/ra/cdp/a30b9aa02bd60e50a2b3a806c8d15ce195034db3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://q.cryptopro.ru/cdp/98ba9f212764816c8cf1b7fb846f21a514157437.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cryptopro.ru/ra/cdp/98ba9f212764816c8cf1b7fb846f21a514157437.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://aksicom.ru/ud_center/cdp/akscrl06.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://aksicom.ru/ud_center/cdp/akscrl07.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.service.mfc38.ru/2019/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.mfc38.ru/2019/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.service.mfc38.ru/2020/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.mfc38.ru/2020/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.nprts.ru/ra/cdp/399ada3ba655087a424242cbb45f787ba00c6ae2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.nprts.ru/ra/cdp/399ada3ba655087a424242cbb45f787ba00c6ae2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.nprts.ru/ra/cdp/b01032c114fbf3c34de4d7824f30bcc0d0c14603.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.nprts.ru/ra/cdp/b01032c114fbf3c34de4d7824f30bcc0d0c14603.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac10.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac10.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac11.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac11.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.garantexpress.ru/cdp/accredited/garant_ac13.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.garant.ru/cdp/accredited/garant_ac13.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ekey.pro/cdp/ekeyUC2012_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ekey.ru/cdp/ekeyUC2012_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.ekey.ru/cdp/ekeyUC2012_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.grcc.ru/cert/ca/crl/grcc_ca_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cert3.rk72.ru/ooork2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rk72.ru/cdp/ooork2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tunc72.ru/certsca/6e1c5c689090ceddf54dbaa8bb3604cb94052abd.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.xn--80avbjhfdg0j.xn--p1ai/sites/default/files/export2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.xn--80avbjhfdg0j.xn--p1ai/sites/default/files/export4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.xn--80avbjhfdg0j.xn--p1ai/sites/default/files/export1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.xn--80avbjhfdg0j.xn--p1ai/sites/default/files/export.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.xn--80avbjhfdg0j.xn--p1ai/sites/default/files/export3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sakha/uc_016_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sakha/uc_016_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://uc.fssp.gov.ru/files/udostov/e73522a8f8e9d7934a0778841eff85adce27f329.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+INFO Page https://fbmse.ru/resources/upload/left-site-bar/udostoveryayushhij-centr/FBMSE_2020(GOST2012).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://fbmse.ru/resources/upload/left-site-bar/udostoveryayushhij-centr/FBMSE_2019(GOST2012).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cap.ru/cdp/uc-cit2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-cit.cap.ru/cdp/uc-cit2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-cit.cap.ru/cdp/uc-cit2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cap.ru/cdp/uc-cit2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.link-service.ru/newgostcert_20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.link-service.ru/newgostcert_19.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_volgrad/ca_volgrad_min_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_volgrad/ca_volgrad_min_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ep.pskov.ru/crl/10469-kid92F6F123D247537F5DCBC0C5114CDFA29E05F722/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ep.pskov.ru/crl/10469-kidFF55289DDE17B169BA0363A6B94C0023EB945B25/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tyumen/ca_ot_tyumen_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tyumen/ca_ot_tyumen_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.specdep.ru/upload/uc/infinitumca2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.infinitum-as.biz/infinitumca2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.infinitum-as.biz/infinitumca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.specdep.ru/upload/uc/infinitumca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ulyanov/ca_ulyanov_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ulyanov/ca_ulyanov_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://files.rac-vlg.ru/clr/2356-kid41B217C8CD6FFF8773E6030F342363676E46021B/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.sfo.gnivc.ru/gnivcsfo_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.gnivc.ru/html/uc/gnivc2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gnivc.ru/uc/gnivc2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_udmurt/ca_udmurt_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_udmurt/ca_udmurt_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cadtech.ru/1e6fb74be063d0b46063a005c3f946505eeeeab8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://aguc.ru/cdp/1e6fb74be063d0b46063a005c3f946505eeeeab8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.cadtech.ru/55aeb38b855100bf96577f68e44e9cf5b584701c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://aguc.ru/cdp/55aeb38b855100bf96577f68e44e9cf5b584701c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.pbprog.ru/cdp/37f8db4139164eccbc9920cc392694277b554613.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.pbprog.ru/cdp/16442faa41edf591ed623116d0212cc2ff8b0867.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ryazan/ca_072_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ryazan/ca_072_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://krtech.ru/wp-content/themes/krtech/crl_ao_krtech.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://dialog.krtech.ru/wp-content/uploads/crl/crl_ao_krtech.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.grifin.ru/crl/F2458E1A830967EC1CE2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.grifin.ru/crl/482C399C7BAB20B62D72.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.uc-mo.ru/crls/uc_mo_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://most-info.ru/public/ca_mostinfo_60.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://most-info.ru/public/ca_mostinfo_70.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kurgan/ca_kurgan_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kurgan/ca_kurgan_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.atsenergo.ru/atsca/cdp/eb1a2292a171e677190e45807e8abe657d4dc51f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.rosenergo.com/atsca/cdp/eb1a2292a171e677190e45807e8abe657d4dc51f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.rosenergo.com/atsca/cdp/58ef7a132a4b31dbf8411fd530b099eef5ea1722.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.atsenergo.ru/atsca/cdp/58ef7a132a4b31dbf8411fd530b099eef5ea1722.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://structure.mil.ru/download/doc/morf/military/files/crl_19.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://structure.mil.ru/download/doc/morf/military/files/crl_20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kursk/uc_056_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kursk/uc_056_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tambov/ca_tambov_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://ca.pfrf.ru/ot_tambov/ca_tambov_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.astralm.ru/cdp/am/astral-m-11339-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/am/astral-m-11339-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.astralm.ru/cdp/am/astral-m-cp-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/am/astral-m-cp-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.astralm.ru/cdp/am/astral-m-cp-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/am/astral-m-cp-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.astralm.ru/cdp/am/astral-m-11339-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/am/astral-m-11339-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_omsk/ca_omsk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_omsk/ca_omsk_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.astrobl.ru/sites/default/files/cdp/ca-astrobl-2020_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.astrobl.ru/sites/default/files/cdp/ca-astrobl-2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.csr43.ru/files/2020/0A4D_rem.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.csr43.ru/files/2019/0A4D_rem.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kemer/ca_kemer_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kemer/ca_kemer_gost_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gpr.stek-trust.ru/trust/CRL/Stek_CA_Qualified2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gpr.stek-trust.ru/trust/CRL/Stek_CA_Qualified2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tyva/ca_tyva_2019_gost_q.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tyva/ca_tyva_2020_gost_q.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_smolensk/ca_smolensk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_smolensk/ca_smolensk_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_vologda/ca_vologda_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_vologda/ca_vologda_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_altaikr/ca_altaikr_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_altaikr/ca_altaikr_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.novo-sibirsk.ru/crlinfo/g2012_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.novo-sibirsk.ru/crlinfo/g2012_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sverdlov/ca_sverdlov_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sverdlov/ca_sverdlov_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_voron/uc_046_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_voron/uc_046_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_archan/ca_archan_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_archan/ca_archan_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ackom.net/cdp/ackom2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://files.ackom.net/cdp/ackom2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stavuc.ru/cdp/ackom2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stavuc.ru/cdp/ackom2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://files.ackom.net/cdp/ackom2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ackom.net/cdp/ackom2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.oep-penza.ru/cdp/d5f6c514c991f8aaa6af5f936ca25482474e0349.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.oep-penza.ru/cdp/qpenzaregionca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.oep-penza.ru/cdp/qpenzaregionca2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.oep-penza.ru/cdp/23f88ef4517474be67d1f8739aee143d8b1bc12b.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://repository.gisca.ru/CDP/qualifiedgiscav3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gisca.ru/repository/qualifiedgiscav3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gisca.ru/repository/qualifiedgisca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://repository.gisca.ru/CDP/qualifiedgisca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca-mos.ru/mgu08.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bck.ca-mos.ru/mgu08.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://certenroll.mosgorusluga.ru/mgu08.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca-mos.ru/mgu09.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bck.ca-mos.ru/mgu09.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://certenroll.mosgorusluga.ru/mgu09.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cscrl.ru/download/cs2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cryptostandart.ru/download/cs2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cscrl.ru/download/cs2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cryptostandart.ru/download/cs2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.24ecp.ru/enrolled2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2017.24ecp.ru/enrolled2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://crl.squaretrade.ru/squaretrade2020.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+ERROR Error for link http://91.225.76.5/pubserv/squaretrade2020.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+INFO Page http://squaretrade.ru/pubserv/squaretrade2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.skynet-kazan.com/squaretrade2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://91.225.76.5/pubserv/squaretrade2019.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+INFO Page http://squaretrade.ru/pubserv/squaretrade2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.skynet-kazan.com/squaretrade2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://crl.squaretrade.ru/squaretrade2019.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+INFO Page http://tsp.yanao.ru/download/rucsib-2019-GOST-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tsp.yanao.ru/download/rucsib-2020-GOST-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tsp.yanao.ru/download/rucyanao-2019-GOST-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tsp.yanao.ru/download/rucyanao-2020-GOST-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.crypto-s.ru/cryptos28-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crypto-s.ru/documents/cryptos28-2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_moscow/ca_087_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_moscow/ca_087_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_yaros/ca_yaros_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_yaros/ca_yaros_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://cdp.voz.ru/cdp/68a73bdd7fb3866162b35db868ab93ca03e0aaba.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 822, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+INFO Page http://cdp.vbank.ru/cdp/68a73bdd7fb3866162b35db868ab93ca03e0aaba.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://cdp.vbank.ru/cdp/0f189b3b6a594e3dfb447a47def435d792856b78.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+INFO Page http://crl.hkgarant.ru/hkgarant2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.hkgarant.ru/hkgarant2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.edinavigator.com/assets/download/uc/korus_sng3_2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.esphere.ru/assets/download/uc/korus_sng3_2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.edinavigator.com/assets/download/uc/korus_sng2_2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.esphere.ru/assets/download/uc/korus_sng2_2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.minfin74.ru/minfin74_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cr.minfin74.ru/minfin74_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.minfin74.ru/minfin74_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cr.minfin74.ru/minfin74_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tomsk/uc_080_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tomsk/uc_080_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kostr/ca_kostr_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kostr/ca_kostr_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gasps-support.genproc.gov.ru/servlet/virtualproxy?p=/token/certificatesoff/sosgprf(kvalif)8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gasps-support.genproc.gov.ru/servlet/virtualproxy?p=/token/certificatesoff/sosgprf(kvalif)7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rcarus.ru/uc/ruc54_gost2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.rcarus.ru/causer/ruc54_gost2012_v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.rcarus.ru/causer/ruc54_gost2012_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rcarus.ru/uc/ruc54_gost2012_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.e-mordovia.ru/cdp/0042bde34c66f66b476a698b446eeb8ca7e463e5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.e-mordovia.ru/cdp/21ab3918a5433c03829baa59d0062231420ed333.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://1cbo.1c.ru/cdp/1cca1_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.1c.ru/cdp/1cca1_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.1c.ru/cdp/1cca1_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://1cbo.1c.ru/cdp/1cca1_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://1cbo.1c.ru/cdp/1cca2_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.1c.ru/cdp/1cca2_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://kraskript.com/ca1/ca_kraskript_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://kraskript.net/ca1/ca_kraskript_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://kraskript.com/ca1/ca_kraskript_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://kraskript.net/ca1/ca_kraskript_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_astrah/uc_040_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_astrah/uc_040_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra-ext2.fips.ru/cdp/8add399247e557449501429451fa070ff4390707.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ivan/ca_ivan_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_ivan/ca_ivan_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.rosatom.ru/ra/cdp/52a27a4979dff81173b518422845b59e0bcc3e1e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.rosatom.ru/ra/cdp/52a27a4979dff81173b518422845b59e0bcc3e1e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.rosatom.ru/ra/cdp/9ccf574b5ff0b1815cc7fdf006e52e25454e399e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.rosatom.ru/ra/cdp/9ccf574b5ff0b1815cc7fdf006e52e25454e399e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cainet.ru/cert/uci46-201911.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cainet.ru/cert/uci46-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_dagestan/ca_dagestan_2019_gost12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_dagestan/ca_dagestan_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://UCVBC.RU/CRL/vbc03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ECPVBC.RU/CRL/vbc03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ecpvbc.ru/crl/vbc03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucvbc.ru/crl/vbc03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fs.moex.com/cdp/moex-ca2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://91.190.234.7/elbis69a736c2b8d1bba41f310894b76389a22af7ea78.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.e-tax.ru/root/elbis69a736c2b8d1bba41f310894b76389a22af7ea78.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.e-tax.ru/root/elbis_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.e-tax.ru/root/elbisf3696819912dd48a6df5890abe52fac931bb43e5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.rus-telecom.ru/cdp/rts-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.g-tel.ru/cdp/rts-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.rus-telecom.ru/cdp/rts-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.g-tel.ru/cdp/rts-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_karel/ca_karel_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_karel/ca_karel_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ank-pki.ru/certsrv/ankqualifiedca12_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://files.ackom.net/cdp/ankqualifiedca12_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gate.dfir.pro/ankqualifiedca12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ank-pki.ru/certsrv/ankqualifiedca12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.rncb.ru/rncb2012_1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bss-s.ru/bss-s2020-g12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.bss-s.ru/bss-s2020-g12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.bss-s.ru/bss-s2019-g12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bss-s.ru/bss-s2019-g12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://mchs.gov.ru/91a004a1f4c8f9c9dfb6863af90df1f27b567c63.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.rkomi.ru/ra/cdp/cit-gov2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.udc.rkomi.ru/certsrv/cit-gov2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ca.rkomi.ru/ra/cdp/cit-gov2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.udc.rkomi.ru/certsrv/cit-gov2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_krasdar/ca_krasdar_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_krasdar/ca_krasdar_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_primor/ca_primor_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_primor/ca_primor_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_nigegor/ca_nigegor_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_nigegor/ca_nigegor_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_magad/ca_magad_2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_magad/ca_magad_2020_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_mariel/uc_010_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_mariel/uc_010_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.tularegion.ru/ca_citto17.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.tularegion.ru/ca_citto15.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.tularegion.ru/ca_citto16.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.tularegion.ru/ca_citto18.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://otc.ru/portals/0/files/crypto/q2012-otc-lic-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://otc.ru/portals/0/files/crypto/otc-vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://otc.ru/portals/0/files/crypto/q2012-otc-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://otc.ru/portals/0/files/crypto/q2012-otc-2020-09.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.rniirs.ru/cert/484562b817d30d26b98aa63136c9913a4ad77689.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cit-ufa.ru/ca/citufa2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.citufa.ru/ca/citufa2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.citufa.ru/ca/citufa2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cit-ufa.ru/ca/citufa2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_yugra/ca_yugra_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_yugra/ca_yugra_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_pskov/C5DC2B475328A058EAAB.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_pskov/5D743E1E4D5701FEF659.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_zabal/ca_zabal_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_zabal/ca_zabal_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kalug/ca_kalug_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kalug/ca_kalug_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_irkut/ca_irkut_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_irkut/ca_irkut_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cib-service.ru/files/cib-service-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://secret-net.net/files/cib-service-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cib-service.ru/files/cib-service-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://secret-net.net/files/cib-service-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.beeline.ru/cdp/bba450ec6ea22973fb1f68a2fe53884d67e630f7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.beeline.ru/cdp/bba450ec6ea22973fb1f68a2fe53884d67e630f7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.beeline.ru/cdp/a02d8b7cb8b2a43550faf2dbb92516324c774cf2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.beeline.ru/cdp/a02d8b7cb8b2a43550faf2dbb92516324c774cf2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.inory.ru/ca/crl/inory-ca_2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://inory.ru/ca/crl/inory-ca_2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://inory.ru/ca/crl/inory-ca_2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.inory.ru/ca/crl/inory-ca_2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.tensor.ru/tax5/ca/crl/uc_tensor-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax5.tensor.ru/pub/crl/uc_tensor-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl3.tensor.ru/tax5/ca/crl/uc_tensor-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tensor.ru/tax5/ca/crl/uc_tensor-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tensor.ru/tax5/ca/crl/uc_tensor-2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl3.tensor.ru/tax5/ca/crl/uc_tensor-2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax5.tensor.ru/pub/crl/uc_tensor-2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.tensor.ru/tax5/ca/crl/uc_tensor-2019_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kamchat/ca_kamchat_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kamchat/ca_kamchat_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit-sk.ru/uploads/files/uc/cit-sk-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit-sk.ru/uploads/files/uc/cit-sk-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.kadastr.ru/revoke/index/revoked7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.kadastr.ru/revoke/index/revoked6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://certenroll.ca.rt.ru/ca_rtk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.company.rt.ru/cdp/ca_rtk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.uc-em.ru/crlqual-gost2012-year2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.uc-em.ru/cert/crlqual-gost2012-year2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.uc-em.ru/cert/crlqual-gost2012-year2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.uc-em.ru/crlqual-gost2012-year2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.kiasoft.ru/sert/11608-kid47E9F1CE5AE7455EF7F29676766E8FA41F94C40B/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crypto-shop.ru/sert/11608-kid47E9F1CE5AE7455EF7F29676766E8FA41F94C40B/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.kiasoft.ru/sert/11608-kidECC16D060CDD9AFF9448A502CD5BD306CAC0C7A2/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crypto-shop.ru/sert/11608-kidECC16D060CDD9AFF9448A502CD5BD306CAC0C7A2/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ricudm.ru/cert-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ricudm.ru/ucenter/cert-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ricudm.ru/cert-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ricudm.ru/ucenter/cert-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sahal/uc_074_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_sahal/uc_074_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://citto.ru/files/upload/uc-citto-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.72to.ru/files/upload/uc-citto-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.technokad.ru/attaches/uc/cdp/b0a328714939d717486e45f5aff882c4bc54afff.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.technokad.ru/cdp/b0a328714939d717486e45f5aff882c4bc54afff.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://www.technokad.ru/attaches/uc/cdp/6ab1eaae35c1bda8e6f7c94544131155f14c2ec3.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+ERROR Error for link http://uc.technokad.ru/cdp/6ab1eaae35c1bda8e6f7c94544131155f14c2ec3.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+INFO Page http://uc.technokad.ru/cdp/57c62c9964a2d1ca16c8cdb3f1149895f8a2e90e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.technokad.ru/attaches/uc/cdp/57c62c9964a2d1ca16c8cdb3f1149895f8a2e90e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.technokad.ru/attaches/uc/cdp/79475ef49539cdf00adf03f34ae75a583fb0aa7c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.technokad.ru/cdp/79475ef49539cdf00adf03f34ae75a583fb0aa7c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.taxnet.ru/ra/cdp/380a37e83ca91aa85789877d2b2628cdba1bbd60.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.taxnet.ru/ra/cdp/380a37e83ca91aa85789877d2b2628cdba1bbd60.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.taxnet.ru/ra/cdp/9016d494adbc5ae1a63cab2d8ccd91d71caac12f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.taxnet.ru/ra/cdp/9016d494adbc5ae1a63cab2d8ccd91d71caac12f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://burmiac.ru/attachments/359_burmiac20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://pki.vtb.ru/pki/gost/cdp/vtbqcrl2A06DB47DE2F067284DF67F5A581722BC8943630.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+ERROR Error for link http://pki.vtb.ru/pki/gost/cdp/vtbqcrl4CF6168A9E639064A3628F51767C9DA6DB2D1AB8.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+INFO Page http://ca.center-inform.ru/crl/ao-center-inform-spbgost12-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-spbgost12-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-spbgost12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.center-inform.ru/crl/ao-center-inform-spbgost12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r66.center-inform.ru/crl/ao-center-inform-efgost12_3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-efgost12_3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r66.center-inform.ru/crl/ao-center-inform-efgost12_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-efgost12_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r62.center-inform.ru/crl/ao-center-inform-rznf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-rznf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-rznf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://r62.center-inform.ru/crl/ao-center-inform-rznf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.r77.center-inform.ru/crl/v10/ao-center-inform-mskf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-mskf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r77.center-inform.ru/crl/v9/ao-center-inform-mskf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-mskf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r73.center-inform.ru/crl/ao-center-inform-ulnf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-ulnf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-ulnf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r73.center-inform.ru/crl/ao-center-inform-ulnf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-nvsf-gost2012-v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://r54.center-inform.ru/uc/ao-center-inform-nvsf-gost2012-v2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-nvsf-gost2012-v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://r54.center-inform.ru/uc/ao-center-inform-nvsf-gost2012-v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://r23.center-inform.ru/ca/ao_center-inform_gost12_2021_krdf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao_center-inform_gost12_2021_krdf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://r23.center-inform.ru/ca/ao_center-inform_gost12_2020_krdf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao_center-inform_gost12_2020_krdf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-pf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r58.center-inform.ru/crl/ao-center-inform-pf2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-pf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r58.center-inform.ru/crl/ao-center-inform-pf2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r41.center-inform.ru/crl/ao-center-inform-pkf2019-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-pkf2019-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-pkf2020-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.r41.center-inform.ru/crl/ao-center-inform-pkf2020-gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r43.center-inform.ru/ca/ao-center-inform-krvf-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-krvf-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r43.center-inform.ru/ca/ao-center-inform-krvf-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-krvf-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r02.center-inform.ru/ca/ao-center-inform-ufmfgost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-ufmfgost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r52.center-inform.ru/ca/crl/ao-center-inform-nfgost12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-nfgost12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.center-inform.ru/ao-center-inform-nfgost12-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.r52.center-inform.ru/ca/crl/ao-center-inform-nfgost12-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://CA.kubankredit.ru/DFC450D966E03CC187B9833DB6A313BB8C442A03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://CA.kubankredit.ru/07A08CCD05E4E1BE891E61E5AF37866A4242FE15.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://CA.kubankredit.ru/BFD48D51AE99CF0555986983875D9767F5E7D82F.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_habar/uc_037_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_habar/uc_037_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://qca.ginf.ru/cdp/d2dc8fca146aaed136aa7fc09d8340561baad16d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ginf-qca.ru/cdp/d2dc8fca146aaed136aa7fc09d8340561baad16d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://qca.ginf.ru/cdp/f67fb2d4f68814afbe78f1ec46d844ede8a39715.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ginf-qca.ru/cdp/f67fb2d4f68814afbe78f1ec46d844ede8a39715.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://qca.ginf.ru/cdp/e1107458ad47fbddac244d3fad2b08b6a5ff2f6b.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://qca.ginf.ru/cdp/e1107458ad47fbddac244d3fad2b08b6a5ff2f6b.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki2.nwudc.ru/cdp/nwudc1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.nwudc.ru/cdp/nwudc1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki2.nwudc.ru/cdp/nwudcsub9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.nwudc.ru/cdp/nwudcsub9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki2.nwudc.ru/cdp/nwudcsub10.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.nwudc.ru/cdp/nwudcsub10.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki2.nwudc.ru/cdp/nwudc2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.nwudc.ru/cdp/nwudc2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bspb.ru/ca/ra/cdp/673840e52d6147ace45596f6d6f9e3c9606fe30c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.bspb.ru/cdp/673840e52d6147ace45596f6d6f9e3c9606fe30c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fileregionuc.nso.ru/CRL/uc_czi/2020/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fileregionuc.nso.ru/CRL/uc_czi/2019/GOST2012/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://profi-mo.ru/cdp/8f22c6ba92a6db5611afe5d0815983e3272f5fe4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.profi-mo.ru/cdp/8f22c6ba92a6db5611afe5d0815983e3272f5fe4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.profi-mo.ru/cdp/bf38914f47c53ef49e03fb630b4f386eb6f6882d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://profi-mo.ru/cdp/bf38914f47c53ef49e03fb630b4f386eb6f6882d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_mordovia/ca_mordovia_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_mordovia/ca_mordovia_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucmvd.ru/crl/crl9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mvd.ru/crl/crl9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucmvd.ru/crl/crl8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mvd.ru/crl/crl8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tatstan/ca_013_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tatstan/ca_013_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itk2012-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itk2012-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itk2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itk2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://cdp.energo-centr.ru/crl/1f2bb536285112d44e1ebcacec0fdf6768ee7f91.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.2410000.org/ca2021/coc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.2410000.ru/ca2021/coc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.2410000.org/ca2020/coc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.2410000.ru/ca2020/coc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ocsp.kamgov.ru/ocsp/itckk2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.kamgov.ru/files/uc/itckk2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.gosuslugi41.ru/files/uc/itckk2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.gosuslugi41.ru/files/uc/itckk2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.kamgov.ru/files/uc/itckk2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ocsp.kamgov.ru/ocsp/itckk2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.mfc-orel.ru/cert/mfccrl20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.mfc-orel.ru/cert/mfccrl20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.mfc-orel.ru/cert/mfccrl21.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.mfc-orel.ru/cert/mfccrl21.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gir-orel.ru/cert/mfccrl19.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.gir-orel.ru/cert/mfccrl19.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_buryat/ca_buryat_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_buryat/ca_buryat_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucecp.e-zab.ru/reg/intcrlinfo/1214-kidB9C344519515E21BA5E68EF81FD46D09FD339AF2/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucecp.e-zab.ru/reg/intcrlinfo/1214-kidB0A8293C2FE81569033371668156B4E3F112C5D5/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucecp.e-zab.ru/reg/intcrlinfo/1214-kid4E57895C1BCB1201C50057A9F43BBC59723C0430/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tver/ot_tver_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tech.uc-stolica.ru/stolica1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://82.202.247.245/stolica1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-stolica.ru/stolica1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.srmfc.ru/crl/srmfc_gost12_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.srmfc.ru/crl/srmfc_gost12_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.srmfc.ru/crl/srmfc_gost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.srmfc.ru/crl/srmfc_gost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kabbal/ca_kabbal_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kabbal/ca_kabbal_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_karcher/uc_karcher_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_karcher/uc_karcher_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.ucparma.ru/crl/b2e16b03bd8391f382b73153c2502958bbe949b6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucparma.ru/crl/b2e16b03bd8391f382b73153c2502958bbe949b6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.ucparma.ru/crl/b2e16b03bd8391f382b73153c2502958bbe949b6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.ucparma.ru/crl/g2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucparma.ru/crl/g2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.ucparma.ru/crl/g2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_komi/ca_komi_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_komi/ca_komi_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.centerit35.ru/cert/otozv_7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.centerit35.ru/cert/otozv_6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://crl2.uc.orb.ru/pubservice/1471-kid1C82B4DD346AE6CF4E4236BF40FACB24D6962410/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR Error for link http://crl.uc.orb.ru/pubservice/1471-kid1C82B4DD346AE6CF4E4236BF40FACB24D6962410/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR Error for link http://crl.uc.orb.ru/pubservice/1471-kid1D0EF5B50E5CE3D644D44343C1762EFF4B1299D1/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR Error for link http://crl2.uc.orb.ru/pubservice/1471-kid1D0EF5B50E5CE3D644D44343C1762EFF4B1299D1/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+INFO Page http://fss.ru/uc/GUC_FSS_RF_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fss.ru/uc/GUC_FSS_RF_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mininform74.ru/files/29c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mininform74.ru/files/28c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mininform74.ru/files/ogbu_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://uc.dvinaland.ru/cdp/0657_rem2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://uc.dvinaland.ru/cdp/0657_rem2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.dvinaland.ru/cdp/0657_rem2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.megafon.ru/cdp/09f486e7ab35d45875431f51e73e7fcf52dcd6bf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.megafon.ru/cdp/09f486e7ab35d45875431f51e73e7fcf52dcd6bf.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.lenobl.ru/e-gov-8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uclo.spb.ru/e-gov-8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.lenobl.ru/e-gov-9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uclo.spb.ru/e-gov-9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_novsib/ca_novsib_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_novsib/ca_novsib_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_belgor/ca_belgor_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_belgor/ca_belgor_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www2.udcs.ru/certsrv/udcs2019gost12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.udcs.ru/certsrv/udcs2019gost12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.udcs.ru/certsrv/vipnet_udcs2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www2.udcs.ru/certsrv/vipnet_udcs2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www2.udcs.ru/certsrv/vipnet_udcs2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.udcs.ru/certsrv/vipnet_udcs2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ucpfr/pfr_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ucpfr/pfr_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ucpfr/kuc_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page ftp://ftp.icvibor.ru/CDP/769-kidB1D23CC1EFC7C403620B3584D3E47AB8E5C36A53/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://212.3.135.212/pubs/intcrlinfo/769-kidB1D23CC1EFC7C403620B3584D3E47AB8E5C36A53/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://212.3.135.212/pubs/intcrlinfo/769-kidB2DCD313F9F18BCE8B002E47D2610858295D5575/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page ftp://ftp.icvibor.ru/CDP/769-kidB2DCD313F9F18BCE8B002E47D2610858295D5575/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.amurobl.ru/rca_amur_gost12(v2).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.amurobl.ru/rca_amur_gost12(v3).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://srvcas.tambov.gov.ru/ra/cdp/rcctambov3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ritc68.ru/files/rcctambov3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uctambov.ru/files/rcctambov3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ritc68.ru/files/rcctambov2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uctambov.ru/files/rcctambov2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://srvcas.tambov.gov.ru/ra/cdp/rcctambov2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.infotrust.ru/cdp/de5c552b3286d20567d67c05453d6df59b991413.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://z.infotrust.ru/cdp/de5c552b3286d20567d67c05453d6df59b991413.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.infotrust.ru/cdp/d2030080a6b5c3dedcee2e801d625ba16d617751.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://z.infotrust.ru/cdp/d2030080a6b5c3dedcee2e801d625ba16d617751.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.infotrust.ru/cdp/7011bfe3a8aca083b376a9dfc057a875a7a6bfef.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://z.infotrust.ru/cdp/7011bfe3a8aca083b376a9dfc057a875a7a6bfef.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://z.infotrust.ru/cdp/df620379660958f6eb3d8b5a3532fcc1a6e38897.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.infotrust.ru/cdp/df620379660958f6eb3d8b5a3532fcc1a6e38897.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_penza/ca_penza_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_penza/ca_penza_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_adigeya/uc_adigeya_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_adigeya/uc_adigeya_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://irkobl.ru/sites/inform/uc/sos_uc_2012-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://irkobl.ru/sites/inform/uc/sos_uc_2012-3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_rostov/ca_rostov_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_rostov/ca_rostov_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.govvrn.ru/ca/crl2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.govvrn.ru/ca/crl2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://dp.cek.ru/2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://dp.cek.ru/2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rosreport.ru/cdp/029cb315a2a4481d4410e95e3033aa3946fd7c66.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://krasnodar.pro/cdp/029cb315a2a4481d4410e95e3033aa3946fd7c66.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.docshell.ru/cdp/029cb315a2a4481d4410e95e3033aa3946fd7c66.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://krasnodar.pro/cdp/F8C3CA1459A2349299B1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.docshell.ru/cdp/F8C3CA1459A2349299B1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rosreport.ru/cdp/F8C3CA1459A2349299B1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://krasnodar.pro/cdp/bb8912171f4e005391d73500e666b59ebf350db9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.docshell.ru/cdp/bb8912171f4e005391d73500e666b59ebf350db9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rosreport.ru/cdp/bb8912171f4e005391d73500e666b59ebf350db9.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://krasnodar.pro/cdp/4d8a1bdf61afbac4a870778df45b07042eee4485.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rosreport.ru/cdp/4d8a1bdf61afbac4a870778df45b07042eee4485.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.docshell.ru/cdp/4d8a1bdf61afbac4a870778df45b07042eee4485.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://krasnodar.pro/cdp/e35627acf394b846bd836f28e9ae9e2d8901941e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rosreport.ru/cdp/e35627acf394b846bd836f28e9ae9e2d8901941e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.docshell.ru/cdp/e35627acf394b846bd836f28e9ae9e2d8901941e.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cb.ntssoft.ru/cdp/ntssoft12-02.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ents.ru/cdp/ntssoft12-02.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ntssoft.ru/cdp/ntssoft12-02.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cb.ntssoft.ru/cdp/ntssoft12-01.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ntssoft.ru/cdp/ntssoft12-01.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.ents.ru/cdp/ntssoft12-01.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_vladir/ca_vladimir_2020_GOST2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_vladir/ca_vladimir_2021_GOST2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_novgor/ca_novgor_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_novgor/ca_novgor_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.ktkt.ru/cdp/4172e13bef6a92e3ed7831a5c484af2a59ba5c6a.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.ktkt.ru/cdp/4172e13bef6a92e3ed7831a5c484af2a59ba5c6a.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.ktkt.ru/cdp/4b8a04ca2f24660496a8598142163bb227a90678.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.ktkt.ru/cdp/4b8a04ca2f24660496a8598142163bb227a90678.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_peter/ca_peter_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_peter/ca_peter_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kirov/uc_053_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kirov/uc_053_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kirov/uc_053_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://www.cto1.ru/uc/cdp/bc1fdcdc7d6e753498003750a38984abbb3db4c0.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 410: Gone
+INFO Page http://ra.cto1.ru/cdp/bc1fdcdc7d6e753498003750a38984abbb3db4c0.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.cto1.ru/cdp/bd0a52a82245d879ca2985688b696430badfbf80.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://www.cto1.ru/uc/cdp/bd0a52a82245d879ca2985688b696430badfbf80.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 410: Gone
+INFO Page http://crl.cacbu.ru/crl/cacbu_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.cacbu.ru/crl/cacbu_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.cacbu.ru/crl/cacbu_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.cacbu.ru/crl/cacbu_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.cacbu.ru/crl/cacbu_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.cacbu.ru/crl/cacbu_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://from37.ru/ca/stvca6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stv-info.ru/ca/stvca6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stv-it.ru/ca/stvca6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stv-info.ru/ca/stvca5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.stv-it.ru/ca/stvca5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://from37.ru/ca/stvca5.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://www.gmcgks.ru/ucenter/files/ucgmc-2021.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+ERROR Error for link http://www.gks.ru/metod/uc/ucgmc-2021.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+INFO Page http://www.gmcgks.ru/ucenter/files/ade22d4fb4d81f4d72130e86ddb319b1f930a88d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.gks.ru/metod/uc/ade22d4fb4d81f4d72130e86ddb319b1f930a88d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bks.tverfin.ru/citcrl/cit2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit69.tverreg.ru/documents/cit2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit69.ru/wp-content/uploads/2019/11/cit2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit69.ru/wp-content/uploads/2019/11/cit2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cit69.tverreg.ru/documents/cit2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://bks.tverfin.ru/citcrl/cit2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://vtbsd.ru/ca/coc-vtbsd_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page ftp://vipservice:1@ftp.opencode.su/pubservice/intcrlinfo/6743-kidA3C6CB4DF41B2AEC939F9E74D4E89590CAC623D1/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://www.o-code.ru/pubservice/intcrlinfo/6743-kidA3C6CB4DF41B2AEC939F9E74D4E89590CAC623D1/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+ERROR Error for link http://www.o-code.ru/pubservice/intcrlinfo/6743-kidBE7D71CB81B49D547286DEB06E773641539C0F34/revokedCerts.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+INFO Page ftp://vipservice:1@ftp.opencode.su/pubservice/intcrlinfo/6743-kidBE7D71CB81B49D547286DEB06E773641539C0F34/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.pravo.gov.ru/uc/pak1-8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.pravo.gov.ru/uc/pak1-7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.ic-dv.ru/centr/vipnet2017.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.ic-dv.ru/centr/cryptopro2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.ic-dv.ru/centr/cryptopro2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.ediweb.com/ru-ru/cert/crl/edisoftqual_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.ediweb.ru/ru-ru/cert/crl/edisoftqual_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.ediweb.ru/ru-ru/cert/crl/edisoftqual-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.ediweb.com/ru-ru/cert/crl/edisoftqual-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ruc.samregion.ru/rucso_vipnet_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ruc.samregion.ru/rucso_vipnet_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ruc.samregion.ru/rucso_cryptopro_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ruc.samregion.ru/rucso_cryptopro_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.crypto-service.ru/cryp-service-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.crypto-service.ru/cryp-service-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.crypto-service.ru/cryp-service-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.crypto-service.ru/cryp-service-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://regdc.ru/CA/4260-kidB5F375385621D5E7F795967BA9E1C68A85D463F5/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://irbis.tv/CA/4260-kidB5F375385621D5E7F795967BA9E1C68A85D463F5/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://regdc.ru/CA/4260-kid9714553CE11592C7BE3646C8E7997D109D67736A/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://irbis.tv/CA/4260-kid9714553CE11592C7BE3646C8E7997D109D67736A/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://irbis.tv/CA/4260-kid8C37CC091F86B3CA5DB19009130FFBD25BE0B6D6/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://regdc.ru/CA/4260-kid8C37CC091F86B3CA5DB19009130FFBD25BE0B6D6/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fc.russianpost.ru/DownLoad/For_Site/Uslugi/NormDoc/ca-118E38438F754D9E7F1BB2D0A4F2A1F510205EB6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://fc.russianpost.ru/DownLoad/For_Site/Uslugi/NormDoc/ca-CC0A833F281161DD125A8AE9F06C06543D7D6D95.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.etpgpb.ru/gpb-uc0321.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.etpgpb.ru/gpb-uc2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.cc2.sztls.ru/certenroll/sztls-01-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sztls.ru/cc2/sztls-01-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sztls.ru/cc2/sztls-12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.cc2.sztls.ru/certenroll/sztls-12-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.rosgvard.ru/cert/cdp/crl_2019_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.rosguard.gov.ru/cert/cdp/crl_2019_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.rosguard.gov.ru/cert/cdp/crl_2021_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.rosgvard.ru/cert/cdp/crl_2021_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link https://uc.rosguard.gov.ru/cert/cdp/crl_2021_v1.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1422, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)>
+INFO Page https://uc.rosgvard.ru/cert/cdp/crl_2021_v1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mzorb.ru/cc/download/03709c284715e7fc4dd1fff0cd08fc6d5b55e923.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.mzorb.ru/cc//download/991de742a077b51a30c716a115933db4bb8754d2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://orsodin.store/crl/ca.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ors1.ru/cacert1/ca.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_perm/uc203_2012_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_perm/uc203_2012_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_Osnova/COC/iecp2021-03.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_Osnova/COC/iecp2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_Osnova/COC/iecp2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_samara/ca_samara_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_samara/ca_samara_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.novreg.ru/ca/novca2019_2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.novreg.ru/ca/novca2021_2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.alta.ru/crl/b234eb04dd33b8a80bbbb4e3f8505372fe550612.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.alta.ru/crl/cf782f12092dea0e31c1713e8c5f4ede9db932bb.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.alta.ru/crl/2c0f8cfd64429278833961bb288fc5bc2447b130.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www2.keysystems.ru/files/ca/cdp/31b8416adef4493afc28fbecc4bf661923e83708.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.keysystems.ru/files/ca/cdp/31b8416adef4493afc28fbecc4bf661923e83708.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chuvash/uc_015_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chuvash/uc_015_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_krasyar/ca_krasyar_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_krasyar/ca_krasyar_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ucpir.ru/crl/pir2012_3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sertmn.ru/cdp/pir2012_3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://ca.yarcloud.ru/CDP/3ae037f3ed3fec1e45bd5888efa1df20ac835ca5.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 502: Bad Gateway
+INFO Page http://citvo.ru/crls/citvo20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.volganet.ru/citvo20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://citvo.ru/crls/citvo21.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.volganet.ru/citvo21.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://egov-buryatia.ru/uc/buryatiaca20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-buryatia.ru/certenroll/BuryatiaCA20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://egov-buryatia.ru/uc/buryatiaca19-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-buryatia.ru/certenroll/buryatiaca19-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.sev.gov.ru/sas-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.sev.gov.ru/sas-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://naufor.ru/download/crl/naufor_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://miac.med.cap.ru/UserFiles/uc/Certs/MIAC_COC_2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://miac.med.cap.ru/UserFiles/uc/SiteMap/uc-miac/sertifikati/MIAC_COC_2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.voskhod.ru/cdp/voskhod2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.voskhod.ru/cdp/voskhod2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.voskhod.ru/cdp/voskhod2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.voskhod.ru/cdp/voskhod2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.voskhod.ru/cdp/voskhod2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.voskhod.ru/cdp/voskhod2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/12130/astral-12130-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/12130/astral-12130-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/12130/astral-12130-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/12130/astral-12130-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/12130/astral-12130-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/12130/astral-12130-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/1154/astral-1154-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/1154/astral-1154-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/1154/astral-1154-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/1154/astral-1154-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/1154/astral-1154-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/1154/astral-1154-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/833/astral-833-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/833/astral-833-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/833/astral-833-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/833/astral-833-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/833/astral-833-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/833/astral-833-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/cp/astral-cp-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/cp/astral-cp-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/cp/astral-cp-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/cp/astral-cp-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/cp/astral-cp-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/cp/astral-cp-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/889/astral-889-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/889/astral-889-2019n.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/889/astral-889-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/889/astral-889-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp-tender.keydisk.ru/cdp/889/astral-889-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.dp.keydisk.ru/cdp/889/astral-889-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chel/uc_084_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chel/uc_084_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chel/uc_084_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_bryansk/ca_bryansk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_bryansk/ca_bryansk_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sledcom.ru/documents/uc/certificatesoff/cert0ff_3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sledcom.ru/documents/uc/certificatesoff/cert0ff_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.p-consalt.tech/crl/p-consalt2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.p-consalt.tech/crl/p-consalt2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.p-consalt.tech/crl/p-consalt.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.p-consalt.tech/crl/p-consalt.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.p-consalt.tech/crl/p-consalt2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca1.p-consalt.tech/crl/p-consalt2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sberbank.ru/ca/CPCA2019k.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sberbank.ru/ca/BUC2020k.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sberbank.ru/ca/BUC2019k.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://numedy.com/cdp/CA.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://numedy.com/cdp/CA1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp2.magnit.ru/cdp/Tander_CA_Qualified_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp1.magnit.ru/cdp/Tander_CA_Qualified_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp1.magnit.ru/cdp/Tander_CA_Qualified_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp2.magnit.ru/cdp/Tander_CA_Qualified_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp1.magnit.ru/cdp/Tander_CA_Qualified_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cptspocsp2.magnit.ru/cdp/Tander_CA_Qualified_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.roskazna.ru/crl/ucfk_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.roskazna.ru/crl/ucfk_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_hakas/uc_014_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_hakas/uc_014_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tula/uc_081_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_tula/uc_081_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://imc63.ru/uc/imc20206320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sama.ru/~imc/uc/imc20206320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tlt.imc63.ru/uc/imc20206320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.sama.ru/~imc/uc/imc20196320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tlt.imc63.ru/uc/imc20196320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://imc63.ru/uc/imc20196320.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_stavrop/ca_stavrop_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_stavrop/ca_stavrop_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_altai/ca_004_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_altai/ca_004_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K1)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K1)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K5)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K5)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K5)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K5)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K3)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K3)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K3)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K3)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.iitrust.ru/uc/CA-IIT-(K1)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.iitrust.ru/uc/CA-IIT-(K1)-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+ERROR Error for link http://10.0.11.8/cdp/fci_gost_2012.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+ERROR Error for link http://10.0.11.8/cdp/fci_gost_2012.crl
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1253, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1299, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1248, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1008, in _send_output
+    self.send(msg)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 948, in send
+    self.connect()
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 919, in connect
+    self.sock = self._create_connection(
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a.karpihin\PycharmProjects\xml_perser\main.py", line 40, in <module>
+    urlreq.urlretrieve(url_link.text,
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1375, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "C:\Users\a.karpihin\AppData\Local\Programs\Python\Python39\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>
+INFO Page http://ca.pfrf.ru/ot_saratov/ca_saratov_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_saratov/ca_saratov_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_saratov/ca_saratov_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.uriit.ru/crl/df939e4fbacee800e3e66272b02eca326995480c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.uriit.ru/crl/df939e4fbacee800e3e66272b02eca326995480c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.uriit.ru/crl/3a45d3b50546e284b1fa03e863773f6b4d0dce99.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.uriit.ru/crl/3a45d3b50546e284b1fa03e863773f6b4d0dce99.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.uriit.ru/crl/6abbbe9f490754a88fb4b9c3f47e47552e3b85c6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.uriit.ru/crl/6abbbe9f490754a88fb4b9c3f47e47552e3b85c6.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.uriit.ru/crl/41cabceaad47ca66ff3e73a775008bec4944351f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.uriit.ru/crl/41cabceaad47ca66ff3e73a775008bec4944351f.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://brokerkf.ru/doc/uc/trust20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl-spb.brok.pro/trust20.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://brokerkf.ru/doc/uc/trust_new.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl-spb.brok.pro/trust_new.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spcex.ru/certificates/root_ca_spcex_sc-25.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spvb.ru/certificates/root_ca_spcex_sc-25.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spcex.ru/certificates/root_ca_spcex_sc-23.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spvb.ru/certificates/root_ca_spcex_sc-23.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spcex.ru/certificates/root_ca_spcex_sc-24.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.spvb.ru/certificates/root_ca_spcex_sc-24.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca-2.a-practic.ru/ra/cdp/practiccrl_qualified-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kalin/ca_kalin_2020_12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_kalin/ca_kalin_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_amur/uc_028_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_amur/uc_028_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_amur/uc_028_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_bashkor/ca_bashkor_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_bashkor/ca_bashkor_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sib-net.ru/pki/ucsibnet_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sib-net.ru/pki/ucsibnet_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://sib-net.ru/pki/ucsibnet_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_orel/ca_orel_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_orel/ca_orel_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.iac.spb.ru/crl/iac_iogv_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://46.243.177.114/crl/iac_iogv_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://46.243.177.114/crl/iac_gost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.iac.spb.ru/crl/iac_gost12_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.iac.spb.ru/crl/iac_com.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://46.243.177.114/crl/iac_com.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.iac.spb.ru/crl/iac_com_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://46.243.177.114/crl/iac_com_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.datacrypt.ru/inet8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.datacrypt.ru/inet7.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.infomed39.ru/ca/miac-2018.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://miac39.ru/uc/certificates-certification-authority/miac-2018.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://minfinkubani.ru/certificates/ca_minfinkk(2).crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.minfinkubani.ru/certificates/ca_minfinkk_1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.minfinkubani.ru/certificates/ca_minfinkk.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum.ru/cdp/sertum-pro-q-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum-pro.ru/cdp/sertum-pro-q-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum.ru/cdp/sertum-pro-q-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum-pro.ru/cdp/sertum-pro-q-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum.ru/cdp/sertum-pro-q-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.sertum-pro.ru/cdp/sertum-pro-q-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chukot/ca_chukot_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_chukot/ca_chukot_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admirk.ru/certsrv/ab0a7652445be5a5d9d5d3488a6e99b78e98b56d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admirk.ru/certsrv/b9b5d11c7ea3fd7eafc5ea0bc457011a13eda638.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admirk.ru/certsrv/6a43e6a73cb4846de11eee222d97a24820110c94.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_orenb/ca_orenb_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_orenb/ca_orenb_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/crl/ano_bin_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/crl/ano_bin_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/crl/ano_bin_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/crl/ano_bin_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/vipnet/ca_ooo_belinfonalog_kv_2019_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/infotecs/264ec5abbf8638448f4ee2bee2b1ff14269eee98.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/vipnet/ca_ooo_belinfonalog_kv_2019_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/infotecs/25fdc877a28c02dcbed4ec960660c18a49350be1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/vipnet/ca_ooo_belinfonalog_vipnet_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/vipnet/ca_ooo_belinfonalog_vipnet_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/crl/ca_ooo_belinfonalog_kv_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/crl/ca_ooo_belinfonalog_kv_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://binuc.ru/crl/ca_ooo_belinfonalog_kv_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://belinfonalog.ru/crl/ca_ooo_belinfonalog_kv_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/8BFF36A1DA700C656867.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/725A6D15C5D2653857F4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/C0C51397CDED12E548AD.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/bee75b4b56f070fe7411c924aea76e95f6197e35.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/08db6c2194816bc2e3983072566b65a2d10bf13b.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.admin-smolensk.ru/ra/cdp/31d16fc3f9a357040d8f4b25da4cef77bbe7898d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.miacso.ru/documents/images/site/miac-qualified8-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://miacso.ru/Documents/images/Site/miac-qualified10-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.miacso.ru/documents/images/site/miac-qualified6-2018.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.miacso.ru/documents/images/site/miac-qualified5-2018.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.miacso.ru/documents/images/site/miac-qualified7-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.miacso.ru/documents/images/site/miac-qualified9-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.cryptopro.is.miac74.ru/cdp/72373d09d43160dab1b79739d46f3a17afda3152.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ra.cryptopro.is.miac74.ru/cdp/7e2f2c413a15d3dff6f247ce9aac16f29400bf7d.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax4.tensor.ru/tensorca-2021_gost2012/certenroll/tensorca-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tensor.ru/ca/tensorca-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.tensor.ru/tax4/ca/crl/tensorca-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tensor.ru/tax4/ca/crl/tensorca-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl3.tensor.ru/tax4/ca/crl/tensorca-2021_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax4.tensor.ru/tensorca-2021_cp_gost2012/certenroll/tensorca-2021_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.tensor.ru/tax4/ca/crl/tensorca-2021_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tensor.ru/tax4/ca/crl/tensorca-2021_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tensor.ru/ca/tensorca-2021_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl3.tensor.ru/tax4/ca/crl/tensorca-2021_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tensor.ru/ca/tensorca-2019_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl3.tensor.ru/tax4/ca/crl/tensorca-2019_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tensor.ru/tax4/ca/crl/tensorca-2019_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://tax4.tensor.ru/tensorca-2019_cp_gost2012/certenroll/tensorca-2019_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.tensor.ru/tax4/ca/crl/tensorca-2019_cp_gost2012.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.modum.pro/CA/modum.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page https://www.modum.pro/CA/modumAKT.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.insesoco.ru/cdp/kirb.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.insesoco.ru/cdp/kirb.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.insesoco.ru/cdp/kirb2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.insesoco.ru/cdp/kirb2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_AC/COC/AC_SM.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_AC/COC/kv2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_AC/COC/AC_SM2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://iecp.ru/UC_AC/COC/AC2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://company.rt.ru/cdp/guc2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://rostelecom.ru/cdp/guc2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://reestr-pki.ru/cdp/guc2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.itc48.ru/files/cc/certs/vipnet/4386-kidDA56BE725C60D94C8BE5F1443B6D4ADC76A62032/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://admlr.lipetsk.ru/mastol/4386-kidDA56BE725C60D94C8BE5F1443B6D4ADC76A62032/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://admlr.lipetsk.ru/mastol/4386-kid030D48E1F0C5E17BEE028761AF030951A8575627/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.itc48.ru/files/cc/certs/vipnet/4386-kid030D48E1F0C5E17BEE028761AF030951A8575627/revokedCerts.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.admlr.lipetsk.ru/mastol/948753c7c771a5b663bdfb239ab19011e5a32127.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.itc48.ru/files/cc/certs/obu_itc/948753c7c771a5b663bdfb239ab19011e5a32127.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.itc48.ru/files/cc/certs/obu_itc/2e76fa632ce9a717b70717fd25dde5c27406ab40.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.admlr.lipetsk.ru/mastol/2e76fa632ce9a717b70717fd25dde5c27406ab40.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.admlr.lipetsk.ru/mastol/820e4c03cd28af5ac59dcfe8f416fdbb468bf4f1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.itc48.ru/files/cc/certs/obu_itc/820e4c03cd28af5ac59dcfe8f416fdbb468bf4f1.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_murman/uc_061_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.pfrf.ru/ot_murman/uc_061_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.ca-infotecs.ru/CA-INFOTECS-1-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.ca-infotecs.ru/CA-INFOTECS-1-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://q1.psbank.ru/cdp/2021_0.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://q2.psbank.ru/cdp/2021_0.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ib-cr.ru/cdp/4102bd0dca7f32e9378f87f29f4116d39abac4f8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-kbr.ru/cdp/4102bd0dca7f32e9378f87f29f4116d39abac4f8.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc-kbr.ru/cdp/6ce407f14d4b465e8dfd3cb4473ed1326629084c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ib-cr.ru/cdp/6ce407f14d4b465e8dfd3cb4473ed1326629084c.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.forus.ru/cdp/forus-2020-12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.forus.ru/cdp/forus-2020-12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.forus.ru/cdp/forus-2019-12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca2.forus.ru/cdp/forus-2019-12.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.tinkoff.ru/certs/tinkoffca2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cdn-tinkoff.ru/certs/tinkoffca2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cdn-tinkoff.ru/certs/tinkoffca2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.tinkoff.ru/certs/tinkoffca2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.tinkoff.ru/certs/tinkoffca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cdn-tinkoff.ru/certs/tinkoffca2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://www.cdn-tinkoff.ru/certs/tinkoffca2021-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca.tinkoff.ru/certs/tinkoffca2021-2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2020_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2020_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2021_vipnet_new.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2021_vipnet_new.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2021_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2021_vipnet.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2019-r.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2019-r.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2012-2021_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2012-2021_2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2012-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2012-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2012-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp1.itk23.ru/itcom2019-cp.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.itk23.ru/itcom2019-cp.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://gisca.ru/repository/qgisca2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://repository.gisca.ru/cdp/qgisca2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.taxcom.ru/9ADA38706CD34DE26E4184903A3391CFD8201933.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.taxcom.ru/88AFAEF6252DF4D92CF50F967A14FA1189B7C8A4.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.taxcom.ru/a3e72717782915ba45f5503535dd1be315efd652.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl.taxcom.ru/CFD5B3B2BDEFCA4256439169E5B2181DBF6F2183.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc2.trust-s.ru/uc/CA-TS-(K1)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc1.trust-s.ru/uc/CA-TS-(K1)-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.tatar.ru/cdp/a655c982504b597ffa92173f2e836eb877625cc0.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tatar.ru/cdp/a655c982504b597ffa92173f2e836eb877625cc0.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tatar.ru/cdp/82e07721dfb1c5e06398621ad647b331499a87f2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.tatar.ru/cdp/82e07721dfb1c5e06398621ad647b331499a87f2.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tatar.ru/cdp/43cd84d04e7f78ee12580cbc9baff62122827130.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.tatar.ru/cdp/43cd84d04e7f78ee12580cbc9baff62122827130.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl1.tatar.ru/cdp/d6c619ce0ccc11de40888344b9412ced9d4005ce.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://crl2.tatar.ru/cdp/d6c619ce0ccc11de40888344b9412ced9d4005ce.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.customscard.ru/crl/ca_tk20_2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.customscard.ru/crl/ca_tk20_2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://uc.customscard.ru/crl/ca_tk20_2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q1-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q1-2019.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q1-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q1-2020.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp.skbkontur.ru/cdp/skbkontur-q1-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cdp2.skbkontur.ru/cdp/skbkontur-q1-2021.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://cpca-pki.otchet-online.ru/cdp/ce108388bd4ea427eb08af457c2a45a0078e00bc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://ca-pki.otchet-online.ru/cdp/ce108388bd4ea427eb08af457c2a45a0078e00bc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://otchet-reserve.ru/cdp/ce108388bd4ea427eb08af457c2a45a0078e00bc.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.fintender.ru/pki/sovcombankca.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.sovcombank.ru/pki/SovcombankCA.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.sovcombank.ru/pki/SovcombankCA2021_KC3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
+INFO Page http://pki.fintender.ru/pki/SovcombankCA2021_KC3.crl was SELECTED because it SATISFIES condition 2019|2020|2021
