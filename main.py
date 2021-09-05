@@ -1,8 +1,7 @@
 import xml.etree.ElementTree as ET
 import urllib.request as urlreq
 import logging
-#import time
-#from progress.bar import IncrementalBar
+from tqdm import tqdm
 
 
 FORMAT = '%(asctime)s %(levelname)s %(message)s'
@@ -13,9 +12,8 @@ user = input("Enter user's name: ")
 path = input("Enter the path to XML file(exp. C:/Users/file.xml): ")
 tree = ET.parse(path)
 root = tree.getroot()
-#bar = IncrementalBar('Countdown', max=len(root.findall('УдостоверяющийЦентр')))
 print("Script is working...")
-for elem in root.findall('УдостоверяющийЦентр'):
+for elem in tqdm(root.findall('УдостоверяющийЦентр')):
     name = elem.find('КраткоеНазвание')
     compleks_i = elem.find('ПрограммноАппаратныеКомплексы')
     for compleks in compleks_i.findall('ПрограммноАппаратныйКомплекс'):
@@ -42,8 +40,6 @@ for elem in root.findall('УдостоверяющийЦентр'):
                         except:
                             logging.exception(f'Error for link {url_link.text}')
                             continue
-                        #bar.next()
-#bar.finish()
 
 file = open(f'C:/Users/{user}/Desktop/xml.txt', "w+")
 for elem in root.findall('УдостоверяющийЦентр'):
